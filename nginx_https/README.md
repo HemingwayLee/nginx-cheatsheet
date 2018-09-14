@@ -1,7 +1,8 @@
 # How to use
 
 ```
-docker run -it --rm -p 8899:80 -p 4443:443 my-test-linux
+docker build -t my-nginx .
+docker run -it --rm -p 8899:80 -p 4443:443 my-nginx
 ```
 
 # Reference
