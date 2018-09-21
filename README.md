@@ -29,3 +29,13 @@ nginx -s reload
 /usr/share/nginx/html
 ```
 
+## Log
+* Error Log
+We can set path and level:
+```
+error_log logs/error.log warn;
+```
+
+* Access Log
+NGINX writes information about client requests in the access log right after the request is processed. 
+
