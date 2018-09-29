@@ -4,9 +4,10 @@
 docker build -t my-nginx .
 docker run -it --rm -p 8899:80 my-nginx
 ```
+
 # Test
 
-If you change main.css
+If you change main.css on the server
 ```
 vim /var/www/html/static/main.css
 ```
