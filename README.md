@@ -49,3 +49,16 @@ http {
 }
 ```
 
+## Misc.
+
+* Change web root to new location:
+
+```
+root /home/ubuntu;
+```
+
+* Redirect 404 to index page:
+
+```
+error_page 404 /index.html;
+```
