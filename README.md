@@ -13,7 +13,7 @@ nginx -g 'daemon off;'
 ```
 
 or in dockerfile
-```docker
+```dockerfile
 CMD ["nginx", "-g", "daemon off;"]
 ```
 
