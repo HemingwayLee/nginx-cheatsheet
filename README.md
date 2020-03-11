@@ -7,6 +7,16 @@ nginx -s stop
 nginx -s reload
 ```
 
+* Run nginx in foreground
+```
+nginx -g 'daemon off;'
+```
+
+or in dockerfile
+```dockerfile
+CMD ["nginx", "-g", "daemon off;"]
+```
+
 ## Ubuntu
 * config file path:
 ```
