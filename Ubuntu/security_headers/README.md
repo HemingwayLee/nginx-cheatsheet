@@ -22,3 +22,8 @@ docker stop <container_id>
 https://github.com/meliot/shcheck
 
 
+## Header related info
+
+https://geekflare.com/http-header-implementation/#Referrer-Policy
+
+
