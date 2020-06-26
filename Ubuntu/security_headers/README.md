@@ -16,3 +16,9 @@ docker run -itd -p 8088:8088 my-nginx
 ```
 docker stop <container_id>
 ```
+
+## Use `shcheck` to check headers
+
+https://github.com/meliot/shcheck
+
+
