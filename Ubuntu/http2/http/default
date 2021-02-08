@@ -1,0 +1,10 @@
+server {
+  listen 80 http2 default_server;
+  listen [::]:80 http2 default_server;
+
+  root /var/www/html;
+
+  index index.html;
+
+  server_name _;
+}
