@@ -6,3 +6,32 @@
 ### Windows ###
 Thumbs.db
 ehthumbs.db
+
+### Django ###
+__pycache__
+migrations/
+
+db.sqlite3
+*.log
+*.pyc
+venv/
+
+### IDE ###
+.vscode/
+
+### Environment ###
+.env
+
+### logs ###
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+yarn.lock
+
+build/
+node_modules/
+
+### Windows ###
+Thumbs.db
+ehthumbs.db
