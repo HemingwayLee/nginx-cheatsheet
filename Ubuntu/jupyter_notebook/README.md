@@ -12,4 +12,5 @@ docker run -it --rm -p80:80 mynginx
     * We need to put `jupyter_notebook_config.py` into `~/.jupyter/` folder
 * Replacing stale connection
     * We need to add web socket part into `nginx default` file
-
+* [413 Request Entity Too Large](https://github.com/jupyterlab/jupyterlab/issues/4214)
+    * Add `client_max_body_size` into `nginx default` file
