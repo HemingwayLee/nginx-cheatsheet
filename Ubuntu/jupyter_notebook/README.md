@@ -14,3 +14,4 @@ docker run -it --rm -p80:80 mynginx
     * We need to add web socket part into `nginx default` file
 * [413 Request Entity Too Large](https://github.com/jupyterlab/jupyterlab/issues/4214)
     * Add `client_max_body_size 0` into `nginx default` file
+        * It will switch off checking of size
