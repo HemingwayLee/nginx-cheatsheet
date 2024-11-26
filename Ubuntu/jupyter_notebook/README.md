@@ -7,6 +7,13 @@ docker build -t mynginx .
 docker run -it --rm -p80:80 mynginx
 ```
 
+# Note
+What if I forget the token?
+```
+docker exec -it <ID> bash
+jupyter notebook list
+```
+
 # Issues
 * Blocking Cross Origin API request
     * We need to put `jupyter_notebook_config.py` into `~/.jupyter/` folder
